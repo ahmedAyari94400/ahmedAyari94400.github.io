@@ -3,3 +3,12 @@ h1{
     color: blue;
 }
 
+#code{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+
+#langage{
+    font-weight: bold;
+    color: red;
+}
