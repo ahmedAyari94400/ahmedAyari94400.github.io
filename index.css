@@ -1,32 +1,26 @@
-h1{
-    font-family:cursive;
-    color: white;
-    text-align: center;
-    font-size: 80px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-#code{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: brown;
-    text-align: center;
+#container {
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content:end; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 300px;
 }
 
-#langage{
-    font-weight: bold;
-    color: red;
-    text-align: center;
-    
+.box {
+    width: 500px;
+    margin: -130px;
+    text-align: center;     /* will center text in <p>, which is not a flex item */
 }
 
 body{
-    background-image: url('website-hosting-concept-with-circuits.jpg');
+    background-image: url("website-hosting-concept-with-circuits.jpg");
     background-size: 100%;
-    
 }
 
-
-
-
-
-
+h1{
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(2, 38, 72);
+}
