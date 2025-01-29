@@ -1,14 +1,32 @@
 h1{
     font-family:cursive;
-    color: blue;
-}
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
 #code{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: brown;
+    text-align: center;
 }
 
 #langage{
     font-weight: bold;
     color: red;
+    text-align: center;
+    
 }
+
+body{
+    background-image: url('website-hosting-concept-with-circuits.jpg');
+    background-size: 100%;
+    
+}
+
+
+
+
+
+
