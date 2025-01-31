@@ -1,15 +1,18 @@
 #container {
     display: flex;           /* establish flex container */
     flex-direction: column;  /* make main axis vertical */
-    justify-content:end; /* center items vertically, in this case */
+    justify-content:center; /* center items vertically, in this case */
     align-items: center;     /* center items horizontally, in this case */
-    height: 300px;
-}
+    }
 
 .box {
     width: 550px;
-    margin: -130px;
-    text-align: center;     /* will center text in <p>, which is not a flex item */
+    height: 0.5rem;
+    text-align: center;
+    /* flex-direction: column;    /* will center text in <p>, which is not a flex item */
+    /* align-items: center; */
+    /* justify-content: center; */ 
+    
 }
 
 body{
@@ -18,34 +21,38 @@ body{
 }
 
 h1{
-    color: whitesmoke;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-color: rgb(2, 38, 72);
+    color: white;
+    font-size: 60px;
+    /*  */
+    padding-top: 300px;
+    
 }
 
 .aboutMe{
     font-size: 45px;
+    padding-top: 50px;
+    margin-right: 50px;
+    
 }
 
 
 #message{
      color: white; 
-        
+     font-size: 20px;
+     font-weight: bold;   
 }
 
 #visibleHidden{
-   background-color: black;
-   color: blue;
+   background-color: transparent;
+   color: gray;
    border-style: hidden;
 }
 
 #pres{
-    display: none;
+    visibility: hidden;
 }
 
 #me{
  font-size: 25px;
- margin-left: 50px;
+ 
 }
