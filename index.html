@@ -5,29 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <script src="path/to/my/script.js"></script>
 
         
     <div id="container"><!-- flex container -->
 
         
-        <div class="box" id="redbox"><!-- flex item -->
-            <h1>Portfolio Ada Ahmed</h1>
+        <div class="box" ><!-- flex item -->
+            <h1>Portfolio Ahmed Ayari</h1>
         </div>
     
     </div>
     <div class="corps">
     
         <!-- Création d'une présentation   -->
-         <div class="left">
-            <a href="visibleHidden">
+
+        <!-- Mise en place de la div about Me visible   -->
+         <div class="aboutMe">
+            <button id="visibleHidden">
                 <p id="me">About me </p>
-                </a>
+            </button>
         </div>
-        <div>
-                <p id="pres">Je m'appel Ahmed et je code depuis un certain temps en back-end et je cherche à m'orienté vers du full stack</p>
+
+        <!-- Mise en place de la div message qui doit être visible au click de aboutMe   -->
+       <div id="message">
+                <p id="pres">Je m'appelle Ahmed et je code depuis un certain temps en back-end et je cherche à m'orienté vers du full stack</p>
             
         </div>
 

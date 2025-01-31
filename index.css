@@ -7,7 +7,7 @@
 }
 
 .box {
-    width: 500px;
+    width: 550px;
     margin: -130px;
     text-align: center;     /* will center text in <p>, which is not a flex item */
 }
@@ -23,4 +23,29 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-color: rgb(2, 38, 72);
+}
+
+.aboutMe{
+    font-size: 45px;
+}
+
+
+#message{
+     color: white; 
+        
+}
+
+#visibleHidden{
+   background-color: black;
+   color: blue;
+   border-style: hidden;
+}
+
+#pres{
+    display: none;
+}
+
+#me{
+ font-size: 25px;
+ margin-left: 50px;
 }
