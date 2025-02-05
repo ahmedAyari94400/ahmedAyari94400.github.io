@@ -2,21 +2,14 @@
     display: flex;           /* establish flex container */
     flex-direction: column;  /* make main axis vertical */
     justify-content:center; /* center items vertically, in this case */
-    align-items: center;     /* center items horizontally, in this case */
+         /* center items horizontally, in this case */
     }
 
-.box {
-    width: 550px;
-    height: 0.5rem;
-    text-align: center;
-    /* flex-direction: column;    /* will center text in <p>, which is not a flex item */
-    /* align-items: center; */
-    /* justify-content: center; */ 
-    
-}
 
 body{
-    background-image: url("website-hosting-concept-with-circuits.jpg");
+ 
+   /* background-image: url("website-hosting-concept-with-circuits.jpg");*/
+    background-image: url("v617batch2-kul-05-technology.jpg");
     background-size: 100%;
 }
 
@@ -24,14 +17,16 @@ h1{
     color: white;
     font-size: 60px;
     /*  */
-    padding-top: 300px;
+    
+    
+    
     
 }
 
 .aboutMe{
     font-size: 45px;
-    padding-top: 50px;
-    margin-right: 50px;
+   display: flex;
+   justify-content: center;
     
 }
 
@@ -39,12 +34,14 @@ h1{
 #message{
      color: white; 
      font-size: 20px;
-     font-weight: bold;   
+     font-weight: bold;
+     display: flex;
+     justify-content: center;   
 }
 
 #visibleHidden{
    background-color: transparent;
-   color: gray;
+   color: white;
    border-style: hidden;
 }
 
@@ -55,4 +52,39 @@ h1{
 #me{
  font-size: 25px;
  
+}
+
+#img{
+    
+    display: flex;
+    justify-content: left;
+    
+    width: 60px;
+    height: 60px;
+}
+
+
+
+h2{
+    color: white;
+}
+
+#projets{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logos{
+    display: flex;
+    flex-direction: row;
+}
+#back{
+    margin-top: 50px;
 }
