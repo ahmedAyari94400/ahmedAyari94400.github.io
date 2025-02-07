@@ -22,6 +22,11 @@ function displayMessage()
 document.getElementById("pres").addEventListener("click", displayMessage);
 
 
+    // document.addEventListener("mouseover", function (){
+    //     let p =document.getElementById("pF").style.color.;
+    //     p.addEventListener()
+    // })
+
 /*document.addEventListener("click", function(){
   document.getElementById("demo").innerHTML = "Hello World!";
 });*/ 
