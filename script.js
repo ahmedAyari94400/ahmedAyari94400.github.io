@@ -33,3 +33,11 @@ document.getElementById("pres").addEventListener("click", displayMessage);
 
 //display function:
 
+const clickFront = document.getElementById("projetsF");
+const clickBack = document.getElementById("projetsB");
+
+clickFront.addEventListener("click",()=>{
+    document.clickFront.style.di
+})
+
+
