@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -12,6 +12,19 @@
         
     <div id="container"><!-- flex container -->
         
+           <!-- Mise en place de la div about Me visible   -->
+            <div class="aboutMe">
+                <button type="button" onclick="displayMessage()" id="visibleHidden">
+                    <p id="me">About me </p>
+                </button>
+            </div> 
+
+            <!-- Mise en place de la div message qui doit être visible au click de aboutMe   -->
+           <div id="message">
+                    <p id="pres">Je m'appelle Ahmed<br> et je code depuis quelques années <br>en back-end et je cherche à m'orienté vers du full stack</p>
+                
+            </div>
+
         <div id="projets">
             <div id="front">
                 <h2>Langages front-end</h2>
@@ -59,18 +72,9 @@
           </div>  
             
 
-            <!-- Mise en place de la div about Me visible   -->
-            <div class="aboutMe">
-                <button type="button" onclick="displayMessage()" id="visibleHidden">
-                    <p id="me">About me </p>
-                </button>
-            </div>
+            
     
-            <!-- Mise en place de la div message qui doit être visible au click de aboutMe   -->
-           <div id="message">
-                    <p id="pres">Je m'appelle Ahmed<br> et je code depuis quelques années <br>en back-end et je cherche à m'orienté vers du full stack</p>
-                
-            </div>
+            
     </div>
     
 
